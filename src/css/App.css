@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+h2 {
+  margin: 50px 0px;
+}
+
+input{ outline-width: 0; }
+
+input:placeholder{
+  color:#eeeeee;
+}
+.list-wrapper{
+  width: 255px;
+  border: 1px solid #000000;
+  max-height: 162px;
+  overflow-y: auto;
+  outline: unset;
+  margin: 8px 0px 0px;
+}
+
+.list-wrapper::-webkit-scrollbar {
+  width: 4px;
+}
+
+.list-wrapper::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2); 
+}
+
+.list-wrapper::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.list-item{
+  border-bottom: 1px solid #000000;
+  font-size: 14px;
+  padding: 10px 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+select option:active, 
+select option:checked
+{
+    background-color: grey !important;
+    background: url(../images/play-button.svg) no-repeat 225px center;
+    background-size: 12px 12px;
+}
+
+.list-item:last-child{
+  border: 0px;
+}
+
+#search-area{
+  width: 260px;
+  height: 28px;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  padding: 0px 30px;
+  box-sizing: border-box;
+  background: url(../images/search-icon.png) no-repeat 3px center;
+  background-size: 22px 22px;
+}
+
+.error{
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+}
