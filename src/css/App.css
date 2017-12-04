@@ -25,6 +25,12 @@ input{ outline-width: 0; }
 input:placeholder{
   color:#eeeeee;
 }
+
+.suggestion-wrapper{
+  max-width: 300px;
+  margin: 0 auto;
+}
+
 .list-wrapper{
   width: 255px;
   border: 1px solid #000000;
@@ -80,7 +86,6 @@ select option:checked
 }
 
 .error{
-  width: 200px;
   padding: 20px;
   text-align: center;
 }

@@ -40,14 +40,14 @@ class SuggestionList extends Component {
     render(){
         if ((this.state.textValue.length > 0) && (this.state.response.items)){
             return(
-                <div>
+                <div className="suggestion-wrapper">
                     <input type="text" id="search-area" placeholder="Type Item Name" value={this.state.textValue} onChange={ this.handleChange } />
                     <DropDownList response={this.state.response} update={this.selectedOption}></DropDownList>
                 </div>
             );    
         }else{
             return (
-                <div>
+                <div className="suggestion-wrapper">
                     <input type="text" id="search-area" placeholder="Type Item Name" value={this.state.textValue} onChange={ this.handleChange } />
                     <div className="error">{this.state.response.status}</div>
                 </div>

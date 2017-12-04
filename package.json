@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.17.1",
     "express": "^4.16.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -26,6 +27,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ArockiaHelan01/SuggestionList-React/issues"
-  },
-  "homepage": "https://github.com/ArockiaHelan01/SuggestionList-React#readme"
+  }
 }
